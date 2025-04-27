@@ -64,7 +64,7 @@ ScholarRush is a real-time educational scholarship portal where applicants are e
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** []  
+- **Demo Video Link:** [Check it out!](https://youtu.be/sIPWrObGtCU?si=5E9WHyoYEHuumeXd)
 - **Pitch Deck / PPT Link:** [Take a look!](https://docs.google.com/presentation/d/1bG3c6JCf78WzCmhLENhaBpaardAt3N9B/edit?usp=drive_link&ouid=102137490145153752631&rtpof=true&sd=true)
 
 ---
@@ -99,7 +99,7 @@ npm run dev
 
 ## For Backend
 ```
-#
+#Refer ScholarRush/server/readme.md file
 ```
 ---
 
