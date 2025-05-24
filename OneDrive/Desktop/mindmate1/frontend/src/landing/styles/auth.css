@@ -1,0 +1,123 @@
+.simple-auth-bg {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(120deg, #232946 0%, #a259ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .simple-auth-card {
+    background: #232946;
+    border-radius: 18px;
+    box-shadow: 0 4px 40px #a259ff33;
+    padding: 2.2rem 2rem 1.2rem 2rem;
+    width: 350px;
+    max-width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .simple-auth-title {
+    color: #a259ff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .simple-auth-subtitle {
+    color: #fbbf24;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .simple-auth-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  .simple-auth-form input {
+    padding: 0.7rem 0.9rem;
+    border-radius: 8px;
+    border: 1.5px solid #a259ff55;
+    background: #18191a;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.15s;
+  }
+  
+  .simple-auth-form input:focus {
+    border: 1.5px solid #a259ff;
+  }
+  
+  .simple-auth-btn {
+    margin-top: 0.6rem;
+    background: linear-gradient(90deg, #a259ff 0%, #fbbf24 100%);
+    color: #232946;
+    font-weight: 700;
+    font-size: 1.09rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 0;
+    cursor: pointer;
+    box-shadow: 0 0 12px #a259ff44;
+    transition: background 0.18s;
+  }
+  
+  .simple-auth-btn:hover {
+    background: linear-gradient(90deg, #fbbf24 0%, #a259ff 100%);
+    color: #fff;
+  }
+  
+  .simple-auth-or {
+    color: #bcbcbc;
+    font-size: 0.95rem;
+    margin: 1.2rem 0 0.7rem 0;
+    text-align: center;
+  }
+  
+  .simple-auth-google-btn {
+    background: #fff;
+    color: #232946;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    box-shadow: 0 2px 10px #0002;
+    transition: background 0.18s;
+  }
+  
+  .simple-auth-google-btn:hover {
+    background: #fbbf24;
+    color: #232946;
+  }
+  
+  .simple-auth-google-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 0.7rem;
+    background: #fff;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 500px) {
+    .simple-auth-card {
+      width: 97vw;
+      padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    }
+  }
+  

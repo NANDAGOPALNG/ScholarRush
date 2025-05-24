@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(16px);
+    padding: 1.2rem 2.5rem;
+    box-shadow: 0 4px 24px 0 rgba(76, 46, 229, 0.12);
+    border-radius: 20px;
+    margin: 2rem auto 2.5rem auto;
+    max-width: 960px;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 48px;
+    height: 48px;
+    filter: drop-shadow(0 0 12px #4f46e5);
+    animation: logoPulse 2.5s infinite alternate;
+  }
+  
+  @keyframes logoPulse {
+    from { filter: drop-shadow(0 0 8px #4f46e5); }
+    to { filter: drop-shadow(0 0 24px #ec4899); }
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .cta {
+    background: linear-gradient(90deg, #4f46e5 0%, #ec4899 100%);
+    color: white;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 999px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 0 18px #ec4899aa;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .cta:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 28px #ec4899cc;
+  }
+  
